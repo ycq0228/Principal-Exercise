@@ -439,6 +439,30 @@ plt.show()
 
 # In[22]:
 
+df["worked_from_home"].sum()
+df["public_transportation_commute"].sum()
+df["solo_vehicle_commute"].sum()
+df["carpool_commute"].sum()
+df["walked_commute"].sum()
+df["other_means_commute"].sum()
+
+sns.set(rc = {"figure.figsize": (10, 10)})
+data = [4530697, 498476, 433801, 315578, 211881, 95526]
+
+labels = ["Driving Alone to Work", 
+          "Carpooling to Work",
+          "Worked From Home",
+          "Using Public Transportation", 
+          "Walking to Work", 
+          "Commuting to Work by Other Means"]
+
+colors = sns.color_palette("pastel")
+
+plt.pie(data, labels = labels, colors = colors, autopct = "%.0f%%")
+plt.show()
+
+
+
 
 # Percentage Worked From Home 
 
