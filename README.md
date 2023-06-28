@@ -8,8 +8,8 @@
 ##### Import the required python packages and run the entire script. 
 
 ### Step 3 : Any additional details or assumptions about the project you would like us to know.
-#### Some columns are highly correlated, i.e., employment (total labor force and female labor force), although the data looks clean, they should be taken care of before modeling process due to multicollinearity. The current data is static not time series, which cannot provide changes over time for more insights. Such panel data is good to identify correlation but there is not ground truth (target variable in the dataset) which could use to identify the market trend. 
+#### Some columns are highly correlated, i.e., employment (total labor force and female labor force), although the data looks clean, they should be taken care of before modeling process due to multicollinearity. The current data is static not time series, which cannot provide changes over time for more insights. Such panel data is good to identify correlation and perform segment analysis. 
 
-### If I have more time and know what specific product to work on , I will drill down the relevant columns (features) to the target output, and perform detailed feature engineering to prepare for the modeling process (either supervised or unsupervised modeling). 
+### If I have more time and know what specific product to work on , I will drill down the relevant columns (features) , and perform detailed feature engineering to prepare for the modeling process (either supervised or unsupervised modeling). 
 
 ## Thank you! :) 
