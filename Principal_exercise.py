@@ -198,9 +198,15 @@ df.rename(columns = dict, inplace = True)
 # In[8]:
 
 
-# drop the columns with all missing values
-df = df.dropna(axis=1, how="all")
+# drop the columns with all missing values, fillna with median for relative normal distribution. 
+def plot(col):
+    fig, ax = plt.subplots()
+    ax.plot(col)
+    plt.show()
+df.apply(plot)
 
+df = df.dropna(axis=1, how="all")
+df = df.fillna(df.median())
 
 # In[9]:
 
