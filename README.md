@@ -4,10 +4,10 @@
 #### b) List the assumptions used to clean the data and summarize any anomalies that may have been noticed. After the first step, I performed additional data analysis to reorganize the data for the next step. Assumptions I made are mainly for interpolating the missing values, I.e., mean/median or regression analysis to interpolate those values assuming same trend/distribution for that column. 
 #### c) Create a brief overview of the data using any preferred python visualization package. I mainly use matplotlib/seaborn and plotly package for visualization combing the FIPS code and geojson to create Choropleth Maps. 
 
-### Step 2 : Instructions on how to run the script and generate outputs. 
+### Step 2: Instructions on how to run the script and generate outputs. 
 ##### Import the required python packages and run the entire script. 
 
-### Step 3 : Any additional details or assumptions about the project you would like us to know.
+### Step 3: Any additional details or assumptions about the project you would like us to know.
 #### Some columns are highly correlated, i.e., employment (total labor force and female labor force), although the data looks clean, they should be taken care of before modeling process due to multicollinearity. The current data is static not time series, which cannot provide changes over time for more insights. Such panel data is good to identify correlation and perform segment analysis. 
 
 ### If I have more time and know what specific product to work on , I will drill down the relevant columns (features) , and perform detailed feature engineering to prepare for the modeling process (either supervised or unsupervised modeling). 
